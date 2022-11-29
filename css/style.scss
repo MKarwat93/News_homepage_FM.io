@@ -5,6 +5,84 @@
 }
 
 body {
+    position: relative;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(36, 100%, 99%);
+}
+
+h1 {
+    color: hsl(240, 100%, 5%);
+}
+
+h2 {
+    color: hsl(35, 77%, 62%);
+}
+
+h3 {
+    color: hsl(233, 8%, 79%);
+}
+
+h4 {
+    color: hsl(36, 100%, 99%);
+    cursor: pointer;
+}
+
+h4:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+h5 {
+    color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+
+h5:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .burger-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: none;
+    }
+    .nav-container  {
+        nav {
+            ul {
+                display: flex;
+                list-style: none;
+                justify-content: end;
+                li {
+                    padding: 10px;
+                    cursor: pointer;
+                }
+                li:hover {
+                    color: hsl(5, 85%, 63%);
+                }
+            }
+        }
+    }
+}
+
+.contents {
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
 }
