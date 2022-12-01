@@ -86,3 +86,10 @@ header {
     font-size: 15px;
     color: hsl(236, 13%, 42%);
 }
+
+main {
+    position: relative;
+    .news-container {
+        display: flex;
+    }
+}
