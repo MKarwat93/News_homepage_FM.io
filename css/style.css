@@ -13,6 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: hsl(36deg, 100%, 99%);
+  padding: 15px 50px;
 }
 
 h1 {
@@ -53,6 +54,7 @@ button {
 header {
   position: relative;
   width: 100%;
+  margin: 15px 0;
 }
 header .logo {
   position: absolute;
@@ -81,4 +83,46 @@ header .nav-container nav ul li:hover {
 .contents {
   font-size: 15px;
   color: hsl(236deg, 13%, 42%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+main .news-container {
+  display: flex;
+  width: 100%;
+}
+main .news-container section {
+  display: flex;
+  flex-direction: column;
+}
+main .news-container section img {
+  width: 100%;
+  height: 100%;
+}
+main .news-container section .top-news-group {
+  display: flex;
+}
+main .news-container aside {
+  width: 100%;
+  height: 100%;
+  background-color: hsl(240deg, 100%, 5%);
+  padding: 0 15px;
+  margin: 0 10px;
+}
+main .news-container aside h2 {
+  padding: 20px 0;
+}
+main article {
+  display: flex;
+}
+main article .top-rated-articles {
+  display: flex;
+}
+main article .top-rated-articles img {
+  width: 40%;
+}
+main article .top-rated-articles .articles-cover {
+  width: 60%;
 }/*# sourceMappingURL=style.css.map */
